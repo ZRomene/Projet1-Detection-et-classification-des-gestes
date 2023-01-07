@@ -72,7 +72,7 @@ Après la vérification de performance, on peut ajouter le code du questionneur.
 
 
 ## 3- Résultat : 
-Comme il est montré le capture d'écran ci-dessous, on a réussi à entrainer un modéle de machine learing à l'aide du jupyter notebook et d'utiliser le modèle entrainé dans le microcontroleur pour répondre qu questionnaire.
+Comme il est montré le capture d'écran ci-dessous, on a réussi à entrainer un modéle de machine learing à l'aide du jupyter notebook et d'utiliser le modèle entrainé dans le microcontroleur pour répondre au questionnaire.
 ![](final.png)
 ## Ressources 
 - https://create.arduino.cc/projecthub/projects/tags/tinyml

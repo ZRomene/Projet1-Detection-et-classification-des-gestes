@@ -73,6 +73,9 @@ Après la vérification de performance, on peut ajouter le code du questionnaire
 
 ## 3- Résultat : 
 Comme il est montré le capture d'écran ci-dessous, on a réussi à entrainer un modéle de machine learing à l'aide du jupyter notebook et d'utiliser le modèle entrainé dans le microcontroleur pour répondre au questionnaire.
+![](initial.png)
+
+Puis, j'ai comparé les pourcentages pour afficher une seule réponse.
 
 ![](final.png)
 

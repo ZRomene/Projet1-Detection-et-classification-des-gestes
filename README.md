@@ -73,7 +73,13 @@ Après la vérification de performance, on peut ajouter le code du questionnaire
 
 ## 3- Résultat : 
 Comme il est montré le capture d'écran ci-dessous, on a réussi à entrainer un modéle de machine learing à l'aide du jupyter notebook et d'utiliser le modèle entrainé dans le microcontroleur pour répondre au questionnaire.
+
 ![](final.png)
+
+Puis, j'ai ajouté la derniére partie celle des emojis.
+
+![](final_avec_emojis.png)
+
 ## Ressources 
 - https://create.arduino.cc/projecthub/projects/tags/tinyml
 - https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-gyroscope

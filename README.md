@@ -21,7 +21,7 @@ Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la d
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
 
-![](Les axes de accelerometre.png)
+![](accelerometre.png)
 
 - La plage de l'accéléromètre est réglée sur [-4, +4]g -/+0,122 mg
 - Le débit de données de sortie de l'accéléromètre est fixé à 104 Hz
@@ -30,7 +30,7 @@ L'accéléromètre permet de mesurer les forces d'accélération statiques (la f
 Le gyroscope permet de mesurer et maintenir l'orientation et la vitesse angulaire ( variation de l'angle de rotation  par unité de temps) d'un objet.
 Les gyroscopes sont plus avancés que les accéléromètres, car ils peuvent mesurer l'inclinaison et l'orientation latérale d'un objet, alors qu'un accéléromètre ne peut mesurer que son mouvement linéaire.
 
-![](Les axes de gyroscope.png)
+![](gyroscope.png)
 
 - La plage du gyroscope est réglée sur [-2000, +2000] dps +/-70 mdps
 - Le débit de données de sortie du gyroscope est fixé à 104 Hz

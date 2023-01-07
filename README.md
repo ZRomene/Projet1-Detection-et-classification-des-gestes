@@ -15,17 +15,17 @@ Le processeur est caractérisé par :
 * 1 MB Flash + 256 KB RAM
 
 Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la détection de mouvement. LSM9DS1, comme mentionné dans son [datasheet][df1], comprend un accéléromètre 3D, un gyroscope et un magnétomètre et permet d’utiliser le module IMU Arduino Nano 33 BLE Sense et de détecter par la suite l'orientation, le mouvement ou\et les vibrations.
-![image] (LSM9DS1.png)
+![image](LSM9DS1.png "LSM9DS1")
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
-![] (Les axes de accelerometre.png "Les axes d'accéléromètre")
+![](Les axes de accelerometre.png "Les axes d'accéléromètre")
 - La plage de l'accéléromètre est réglée sur [-4, +4]g -/+0,122 mg
 - Le débit de données de sortie de l'accéléromètre est fixé à 104 Hz
 
 ##### 1-1-2- Le gyroscope
 Le gyroscope permet de mesurer et maintenir l'orientation et la vitesse angulaire ( variation de l'angle de rotation  par unité de temps) d'un objet.
 Les gyroscopes sont plus avancés que les accéléromètres, car ils peuvent mesurer l'inclinaison et l'orientation latérale d'un objet, alors qu'un accéléromètre ne peut mesurer que son mouvement linéaire.
-![image] (Les axes de gyroscope.png "Les axes du gyroscope")
+![image](Les axes de gyroscope.png "Les axes du gyroscope")
 - La plage du gyroscope est réglée sur [-2000, +2000] dps +/-70 mdps
 - Le débit de données de sortie du gyroscope est fixé à 104 Hz
 

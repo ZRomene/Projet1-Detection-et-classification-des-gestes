@@ -16,7 +16,7 @@ Le processeur est caractérisé par :
 
 Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la détection de mouvement. LSM9DS1, comme mentionné dans son [datasheet][df1], comprend un accéléromètre 3D, un gyroscope et un magnétomètre et permet d’utiliser le module IMU Arduino Nano 33 BLE Sense et de détecter par la suite l'orientation, le mouvement ou\et les vibrations.
 
-![](LSM9DS1.png "LSM9DS1")
+![](LSM9DS1.png)
 
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
@@ -36,7 +36,7 @@ Les gyroscopes sont plus avancés que les accéléromètres, car ils peuvent mes
 ##### 1-1-3- Le magnétomètre
 Le magnétomètre permet de mesures le magnétisme concrétement la direction, l'intensité ou la variation relative d'un champ magnétique à un endroit particulier.
 
-![] (magnetometer.png)
+![](magnetometer.png)
 
 - La plage du magnétomètre est réglée sur [-400, +400] uT +/-0,014 uT 
 - Le débit de données de sortie du magnétomètre est fixé à 20 Hz
@@ -60,7 +60,9 @@ Une base non adéquate peut déclencher des problèmes ultérieurement.
 On ouvre le fichier Juyter ' *arduino_tinyml_workshop.ipynb* ' qui existe dans ce [ tutoriel ][df4]: . Et on l'adapte aux nouveaux gestes en modifiant les labels et les fichiers.csv. Puis, on exécute le code pour entrainer le modèle en divisant les données en 60% d'entrainement, 20% de test et 2% de validation. Une fois entrainé, on peut récupérer le modèle *model.h* et le télécharger.
 ### 2-3- Introduire le modèle et préparer le questionnaire
 Pour tester le modèle, on ouvre le code Arduino IMU_classifier. Et on remplace l'ancien modèle qui existe dans le dossier de ce code par le nouveau modèle entrainé. Après le téléversent du code dans la carte, on ouvre le monitor série pour tester le fonctionnement; pour ce faire, il faut savoir que les mouvements d'Oui et Non enregistré dans ce projet sont faits de la manière suivante:
+
 ![](oui.png)
+
 ![](non.png)
 
 Après la vérification de performance, on peut ajouter le code du questionneur. J'ai choisi à ce propos de regrouper tous les lignes de code dans une fonction que j'ai appelée Acquisition. Et puis j'ai posé les trois questions au fur et à mesure dans la boucle Loop en appelant à chaque fois la fonction acquisition pour détecter le geste de l'utilisateur et savoir par la suite sa réponse à la question posée sur le terminal.

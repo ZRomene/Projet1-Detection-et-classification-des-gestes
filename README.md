@@ -7,13 +7,15 @@ Ceci est fait à l'aide d'un modèle d'intelligence artificielle qu'on va mettre
 ## 1- Matériel utilisé: 
 #### 1-1- Hardware 
 Nous utilisons le Kit d'apprentissage Tiny ML d'arduino pour explorer l'Embedded Machine Learning.C'est une nouvelle technologie qui active l'intelligence artificielle juste à côté du monde physique à l'aide des données récupérées par les capteurs. Ce kit comprend un Arduino Nano 33 BLE Sense. Il est basé sur le microcontrôleur nRF52840 et fonctionne sur le système d'exploitation Arm® Mbed™. Le Nano 33 BLE Sense offre non seulement la possibilité de se connecter via Bluetooth® Low Energy, mais est également équipée de capteurs pour détecter la couleur, la proximité, le mouvement, la température, l'humidité, l'audio et plus encore. Vous pouvez cliquer sur l'image ci-dessous pour plus de détails ou bien il suffit de lire [le datasheet de la carte][df4]. 
+
 [![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IfVcPvM7SwqYIDul2PXhhBmPBYTT7S1rNZ-sMr3BMiu8tbeMrWcBBKtpYS2mg7CYHs4&usqp=CAU)](https://docs.arduino.cc/hardware/nano-33-ble-sense) 
+
 Le processeur est caractérisé par : 
 * 64 MHz Arm® Cortex-M4F (with FPU)
 * 1 MB Flash + 256 KB RAM
 
 Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la détection de mouvement. LSM9DS1, comme mentionné dans son [datasheet][df1], comprend un accéléromètre 3D, un gyroscope et un magnétomètre et permet d’utiliser le module IMU Arduino Nano 33 BLE Sense et de détecter par la suite l'orientation, le mouvement ou\et les vibrations.
-![image] (LSM9DS1.png "La capteur LSM9DS1")
+![image] (LSM9DS1.png, "La capteur LSM9DS1")
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
 ![] (Les axes de accelerometre.png "Les axes d'accéléromètre")

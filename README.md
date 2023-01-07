@@ -48,6 +48,7 @@ Le magnétomètre permet de mesures le magnétisme concrétement la direction, l
 Jupyter notebook c'est un outil qui permet d'exécuter des lignes de code en python. Il est utilisé pour des nombreuses applications comme l'analyse de données ou le traitement d'images. Dans notre cas, on l'utilise pour entrainer et générer un modèle de machine Learning.
 [![N|Solid](https://docs.servicestack.net/assets/jupyter-python.6188762b.png)](https://jupyter.org/) 
 Bien évidemment , on utilise l'IDE de la carte Arduino pour la programmation de la carte et pour utiliser le modèle entrainé. Vous pouvez avoir plus d'informations en cliquant sur l'image suivante:
+
 [![N|Solid](https://www.1min30.com/wp-content/uploads/2018/12/Logo-Arduino-1.jpg)](https://www.arduino.cc/)
 
 ## 2- Les étapes : 

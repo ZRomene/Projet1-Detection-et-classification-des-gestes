@@ -15,7 +15,7 @@ Le processeur est caractérisé par :
 * 1 MB Flash + 256 KB RAM
 
 Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la détection de mouvement. LSM9DS1, comme mentionné dans son [datasheet][df1], comprend un accéléromètre 3D, un gyroscope et un magnétomètre et permet d’utiliser le module IMU Arduino Nano 33 BLE Sense et de détecter par la suite l'orientation, le mouvement ou\et les vibrations.
-![image] (LSM9DS1.png, "La capteur LSM9DS1")
+![image] (LSM9DS1.png)
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
 ![] (Les axes de accelerometre.png "Les axes d'accéléromètre")

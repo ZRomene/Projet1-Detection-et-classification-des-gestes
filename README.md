@@ -31,7 +31,7 @@ Les gyroscopes sont plus avancés que les accéléromètres, car ils peuvent mes
 
 ##### 1-1-3- Le magnétomètre
 Le magnétomètre permet de mesures le magnétisme concrétement la direction, l'intensité ou la variation relative d'un champ magnétique à un endroit particulier.
-![image] (magnetometer.png "Fonctionnement du magnétomètre")
+![Image] (magnetometer.png "Fonctionnement du magnétomètre")
 - La plage du magnétomètre est réglée sur [-400, +400] uT +/-0,014 uT 
 - Le débit de données de sortie du magnétomètre est fixé à 20 Hz
 

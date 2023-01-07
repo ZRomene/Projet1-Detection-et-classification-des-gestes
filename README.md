@@ -68,7 +68,7 @@ Pour tester le modèle, on ouvre le code Arduino IMU_classifier. Et on remplace 
 
 ![](non.png)
 
-Après la vérification de performance, on peut ajouter le code du questionneur. J'ai choisi à ce propos de regrouper tous les lignes de code dans une fonction que j'ai appelée Acquisition. Et puis j'ai posé les trois questions au fur et à mesure dans la boucle Loop en appelant à chaque fois la fonction acquisition pour détecter le geste de l'utilisateur et savoir par la suite sa réponse à la question posée sur le terminal.
+Après la vérification de performance, on peut ajouter le code du questionnaire. J'ai choisi à ce propos de regrouper tous les lignes de code dans une fonction que j'ai appelée Acquisition. Et puis j'ai posé les trois questions au fur et à mesure dans la boucle Loop en appelant à chaque fois la fonction acquisition pour détecter le geste de l'utilisateur et savoir par la suite sa réponse à la question posée sur le terminal.
 
 
 ## 3- Résultat : 

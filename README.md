@@ -20,7 +20,9 @@ Ce qui nous intéresse dans ce projet c'est la centrale inertielle IMU pour la d
 
 ##### 1-1-1- L'accéléromètre 
 L'accéléromètre permet de mesurer les forces d'accélération statiques (la force de gravité continue) et dynamiques (les mouvements ou les vibrations).
-![](Les axes de accelerometre.png "Les axes d'accéléromètre")
+
+![](Les axes de accelerometre.png)
+
 - La plage de l'accéléromètre est réglée sur [-4, +4]g -/+0,122 mg
 - Le débit de données de sortie de l'accéléromètre est fixé à 104 Hz
 
